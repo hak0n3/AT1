@@ -1,0 +1,175 @@
+.header__container {
+    margin: 137px auto 72px;
+    
+    width: 672px;
+    height: 80px;
+}
+
+.header__container-heading {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    color: #161D25;
+}
+
+.header__container-quote {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #5d7085;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.cards__container {
+    width: 1082px;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.card {
+    padding: 72px 35px 36px;
+
+    width: 266px;
+    min-height: 600px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-grow: 1;
+
+    border-radius: 1px;
+}
+
+.card__overlay-popular {
+    height: 31px;
+
+    position: absolute;
+    inset: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    background: linear-gradient(180deg, #63D6FE 0%, #5DD4F8 100%);
+
+}
+
+.overlay-text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+}
+
+.card-image {
+    width: 190px;
+    height: 130px;
+
+    align-self: center;
+}
+
+.card-desc {
+    margin-top: 15px;
+
+    width: 175px;
+}
+
+.card-heading {
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #fff;
+}
+
+.card-par {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #fff;
+}
+
+.card-price {
+    margin-top: 27px;
+
+    width: 130px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-price_currency {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #fff;
+}
+
+.card-price_number {
+    font-size: 67px;
+    font-weight: 700;
+    line-height: 79px;
+    letter-spacing: -0.1px;
+    color: #fff;
+}
+
+.card-features_list {
+    margin-top: 20px;
+    margin-left: 15px;
+    
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+}
+
+.card-btn {
+    margin-top: auto;
+
+    width: 196px;
+    height: 40px;
+
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 3px;
+
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: #fff;
+}
+
+.card-btn_popular {
+    background-color: #fff;
+    color: #44A9FD;
+}
+
+.card-personal {
+    background: linear-gradient(180deg, #FDC624 0%, #E6C434 99.36%);
+}
+
+.card-business {
+    background: linear-gradient(180deg, #55DCE7 0%, #3DCAD4 100%);
+}
+
+.card-developer {
+    background: linear-gradient(180deg, #6BDFFF 0%, #3DACFC 100%);
+}
+
+.card-agency {
+    background: linear-gradient(180deg, #BFCEDC 0%, #939FB3 100%);
+}
