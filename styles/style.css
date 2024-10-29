@@ -25,7 +25,7 @@ main {
     justify-content: center;
 }
 
-.cards__container {
+.tariffs {
     width: 1082px;
 
     display: flex;
@@ -33,7 +33,7 @@ main {
     gap: 6px;
 }
 
-.card {
+.tariffs__card {
     padding: 72px 35px 36px;
 
     width: 266px;
@@ -44,9 +44,12 @@ main {
     display: flex;
     flex-direction: column;
     align-items: start;
-    flex-grow: 1;
 
     border-radius: 1px;
+}
+
+.card-content {
+    flex-grow: 1;
 }
 
 .card__overlay-popular {
@@ -78,13 +81,9 @@ main {
     align-self: center;
 }
 
-.card-desc {
+.card-heading {
     margin-top: 15px;
 
-    width: 175px;
-}
-
-.card-heading {
     font-size: 21px;
     font-weight: 500;
     line-height: 25px;
@@ -104,7 +103,6 @@ main {
     width: 130px;
 
     display: flex;
-    flex-wrap: wrap;
 }
 
 .card-price_currency {
@@ -123,8 +121,7 @@ main {
 }
 
 .card-features_list {
-    margin-top: 20px;
-    margin-left: 15px;
+    margin: 20px 0 50px 15px;
     
     font-size: 14px;
     font-weight: 500;
@@ -136,7 +133,7 @@ main {
     gap: 19px;
 }
 
-.card-btn {
+.tariffs__card-btn {
     margin-top: auto;
 
     width: 196px;
@@ -145,6 +142,7 @@ main {
     background-color: transparent;
     border: 2px solid white;
     border-radius: 3px;
+    cursor: pointer;
 
     font-family: Roboto, sans-serif;
     font-size: 14px;
@@ -153,7 +151,7 @@ main {
     color: #fff;
 }
 
-.card-btn_popular {
+.tariffs__card-btn_popular {
     background-color: #fff;
     color: #44A9FD;
 }
