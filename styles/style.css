@@ -48,10 +48,6 @@ main {
     border-radius: 1px;
 }
 
-.card-content {
-    flex-grow: 1;
-}
-
 .card__overlay-popular {
     height: 31px;
 
@@ -74,14 +70,14 @@ main {
     color: #fff;
 }
 
-.card-image {
+.tariff__image {
     width: 190px;
     height: 130px;
 
     align-self: center;
 }
 
-.card-heading {
+.tariff__heading {
     margin-top: 15px;
 
     font-size: 21px;
@@ -90,14 +86,14 @@ main {
     color: #fff;
 }
 
-.card-par {
+.tariff__par {
     font-size: 12px;
     font-weight: 400;
     line-height: 16px;
     color: #fff;
 }
 
-.card-price {
+.tariff__price {
     margin-top: 27px;
 
     width: 130px;
@@ -105,14 +101,14 @@ main {
     display: flex;
 }
 
-.card-price_currency {
+.tariff__price-currency {
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
     color: #fff;
 }
 
-.card-price_number {
+.tariff__price-number {
     font-size: 67px;
     font-weight: 700;
     line-height: 79px;
@@ -120,7 +116,7 @@ main {
     color: #fff;
 }
 
-.card-features_list {
+.tariff__features-list {
     margin: 20px 0 50px 15px;
     
     font-size: 14px;
@@ -151,23 +147,23 @@ main {
     color: #fff;
 }
 
-.tariffs__card-btn_popular {
+.tariffs__card-btn:hover {
     background-color: #fff;
-    color: #44A9FD;
+    color: rgba(0, 0, 0, 0.5);
 }
 
-.card-personal {
+.tariff__card--personal {
     background: linear-gradient(180deg, #FDC624 0%, #E6C434 99.36%);
 }
 
-.card-business {
+.tariff__card--business {
     background: linear-gradient(180deg, #55DCE7 0%, #3DCAD4 100%);
 }
 
-.card-developer {
+.tariff__card--developer {
     background: linear-gradient(180deg, #6BDFFF 0%, #3DACFC 100%);
 }
 
-.card-agency {
+.tariff__card--agency {
     background: linear-gradient(180deg, #BFCEDC 0%, #939FB3 100%);
 }
